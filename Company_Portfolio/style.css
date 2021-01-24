@@ -1,0 +1,646 @@
+#top-bar
+{
+    background-color: darkslategrey;
+    padding: 0;
+    margin: 0;
+}
+.top-bar-row
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.top-bar-rightcol
+{
+    flex-basis: 50%;
+    
+}
+.top-bar-rightcol
+{
+    flex-basis: 50%;
+    flex-wrap: wrap;
+    
+}
+.num1
+{
+    padding: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn
+{
+    background-color: green;
+    cursor: pointer;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top-bar-rightcol img
+{
+    cursor: pointer;
+    padding: 10px;
+    /*.........write code here to make image round shape..........border radious wil be used*/
+}
+/*............................................Menu bar section........................................................................*/
+.menu-bar
+{
+    
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+.menu-bar-row
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.menu-bar-leftcol
+{
+    flex-basis: 30%;
+    margin-top: 15px;
+}
+.menu-bar-rightcol
+{
+    flex-basis: 70%;
+    margin-top: 15px;
+}
+.menu-bar-leftcol img
+{
+    padding-left: 20px;
+    width: 70px;
+    height: auto;
+}
+/*.menu-bar-rightcol
+{
+    display: flex;
+    list-style: none;
+    color:black;
+}*/
+.menu-bar-rightcol ul
+{
+    display: flex;
+    list-style: none;   /*this will remove dots of list*/
+    /*color: red;*/
+    align-items: center;
+    text-align: end;
+}
+.menu-bar-rightcol ul li
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    width: 100px;
+    /*margin: 8px;*/
+  /* padding: 8px;*/
+}
+.menu-bar-rightcol ul li :hover
+{
+    background-color: orange;
+    border-radius: 20%;
+    border: solid green;
+}
+.menu-bar-rightcol ul li a
+{
+text-decoration: none;  /*To remove decoration made by anchor Tage. it will remove underline, which is by default blue*/
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+/*............................................GREEN PART section........................................................................*/
+#green-part
+{
+    background-color: forestgreen;
+    text-align: center;
+}
+#green-part h1
+{
+    padding-top: 200px;
+    color: white;
+    font-size: 50px;
+}
+#green-part p
+{
+    color: white;
+    font-size: 20px;
+}
+.btn2
+{
+    background-color: orange;
+    border-radius: 20px;
+    /*padding: 80px, 200px;   button size is not adjusting*/
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+/*............................................advantages section........................................................................*/
+#advantages
+{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#advantages h1
+{
+    font-size: 40px;
+    color: green;   /*TWO COLORS TO BE ADDED*/
+}
+#advantages p
+{
+    color: grey;
+}
+
+.advantages-row
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+}
+.advantages-col1
+{
+    flex-basis: 20%;
+    text-align: center;
+}
+.advantages-row img
+{
+    border-radius: 50%;
+    width: 70px;
+    height: auto;
+}
+.advantages-col1 p
+{
+    color: grey;
+}
+/*............................................About Us section........................................................................*/
+#about-us
+{
+    background-color:lightgrey;
+    padding: 0;
+}
+.about-us-row
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+.about-us-rightcol
+{
+    flex-basis: 60%;
+}
+.about-us-leftcol
+{
+    flex-basis: 40%;
+}
+.about-heading
+{
+    padding-top: 30px;
+    text-align: center;
+    color: green;   /*two color needed also here how to do this?*/
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.about-us-leftcol p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+/*............................................services section........................................................................*/
+.services
+{
+    padding: 0;
+    margin: 0;
+}
+.services-top
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+.services-top h1
+{
+    color: green;
+    font-weight: bold;
+    font-size: 40px;
+}
+.services-top p
+{
+    color: gray;
+}
+.services-row
+{
+    display: flex;
+    align-self: center;
+    flex-wrap: wrap;
+    padding-left: 80px;
+    padding-right: 80px;
+    justify-content: center;    /*for allign in center of page*/
+}
+.services-col
+{
+    flex-basis: 20%;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: lightgray;
+}
+.services-col img
+{
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+}
+.services-col p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+.services-row a
+{
+    color: green;
+    font-size: 20px;
+}
+/*............................................Portfolio section........................................................................*/
+.portfolio-top h1
+{
+    padding-top: 40px;
+    text-align: center;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+.portfolio-top p
+{
+    text-align: center;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.portfolio-menu-row
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.portfolio-menu-row ul
+{
+    display: flex;
+    list-style: none;   /*this will remove dots of list*/
+    /*color: red;*/
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.portfolio-menu-row ul li
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    width: 150px;
+}
+#portfolio
+{
+    background-color: black;
+}
+.portfolio-menu-row ul li a
+{
+    text-decoration: none;  /*To remove decoration made by anchor Tage. it will remove underline, which is by default blue*/
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.portfolio-row
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.portfolio-col
+{
+    flex-basis: 20%;
+}
+.portfolio-col img
+{
+    width: 230px;
+    height: auto;
+}
+/*............................................Process section........................................................................*/
+.process-top h1, h2
+{
+    width: 50%;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+.process-top
+{
+    padding-top: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+.process-top h1
+{
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+}
+.process-top h2
+{
+    color: green;
+    font-weight: bold;
+    font-size: 40px;
+}
+.process-top p
+{
+    color: grey;
+    font-size: 20px;
+}
+.process-row
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+}
+.process-col
+{
+    flex-basis: 10%;
+    text-align: center;
+    border-radius: 50%;
+    border-color: black;
+    padding: 20px;
+}
+.process-col img      
+{
+    width: 80px;
+    height: auto;
+    align-items: center;    /* i want to align images in center of colum*/
+    /*border-radius: 50%;   this part is not working i want to circle images
+    border-color: 4px solid black;*/
+}
+/*............................................People section........................................................................*/
+#people
+{
+    background-color: lightgrey;
+}
+.people-top
+{
+    padding-top: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+.people-top h1,h2
+{
+    width: 50%;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+.people-top h1
+{
+    color: black;
+    font-size: 40px;
+}
+.people-top h2
+{
+    color: green;
+    font-size: 40px;
+}
+.people-top p
+{
+    font-size: 20px;
+    color: grey;
+}
+
+.people-table
+{
+    display: grid;         
+  width: auto;         
+  background-color:lightgray;         
+  border: none;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;/* to bring table on center of page*/
+  table-layout: fixed;
+}
+.people-row1
+{
+    display: table-row;
+    column-width: 800px;
+    clear: both;
+    border-bottom: solid 2px black;
+
+}
+.people-row2
+{
+    display: table-row;
+    column-width: 800px;
+  clear: both;
+}
+.people-cell
+{
+    float: left; /* fix for  buggy browsers  whyyyyyyy this?*/
+  display: table-column;         
+  width: 400px;         
+  background-color: #ccc; 
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-right: solid 2px black;
+}
+/*............................................skill section........................................................................*/
+.skill-top h1,h2
+{
+    width: 50%;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+.skill-top h1
+{
+    color: black;
+    font-size: 40px;
+}
+.skill-top h2
+{
+    color: green;
+    font-size: 40px;
+}
+.skill-top p
+{
+    font-size: 20px;
+    color: grey;
+}
+.skill-top
+{
+    padding-top: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: white;
+}
+.skill-row
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+}
+.skill-col
+{
+    flex-basis: 15%;
+}
+.skill-col img
+{
+    width: 120px;
+    height: auto;
+}
+.skill-col h4
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+/*............................................project section........................................................................*/
+#project
+{
+    justify-content: center;
+    background-color: green;
+}
+.from-div h1
+{
+    text-align: center;
+}
+.from-div p
+{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+#project h1
+{
+    color: white;
+    padding-top: 40px;
+    font-size: 70px;
+}
+#project form input
+{
+    width: 200px;
+    height: 40px;
+    margin: 0;
+    border-radius: 7%;
+}
+#project form
+{
+    padding: 0;
+    margin: 0;
+    height: auto;
+    max-width: 1000px;
+}
+.test/*div for form*/
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contacts
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contacts-top h1,h2
+{
+    display: inline;
+    font-size: 40px;
+    padding-top: 40px;
+}
+.contacts-top h1
+{
+    color: black;
+
+}
+.contacts-top h2
+{
+    color: green;
+}
+.contacts-top ul li
+{
+    list-style: none;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.contacts-top a
+{
+    text-decoration: none;
+    color: black;
+}
+.contacts-top p
+{
+    color: grey;
+}
+.contacts-top ul
+{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.contacts-top iframe
+{
+    width: 100%;
+    height: 400px;
+}
+/*............................................project section........................................................................*/
+#footer
+{
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.footer-row
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+}    
+.footer-col
+{
+    flex-basis: 20%;
+}
+.footer-col img
+{
+    width: 200px;
+}
+.footer-col ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.footer-col ul
+{
+    list-style: none;
+    padding: 40px;
+}
+.footer-col ul li
+{
+    padding: 7px;
+}
+.footer-col h6
+{
+    font-size: 15px;
+}
